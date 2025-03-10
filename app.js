@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             this.classList.add('tarjeta--activa');
 
             setTimeout(() => {
-                //alert(`Navegando a: ${enlace}`);
+                alert(`Navegando a: ${enlace}`);
                 window.location.href = enlace;
             }, 300);
         });
